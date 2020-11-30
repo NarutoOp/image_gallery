@@ -1,0 +1,12 @@
+{% extends "gallery/base.html" %}
+{% block content %}
+<H1>Image Form</H1>
+<div class="modal-body">
+    <form method = "post" enctype="multipart/form-data"> 
+        {% csrf_token %}
+        {{ form.media }}
+        {{ form.as_p }}
+        <button type="submit" class="btn btn-primary">Save changes</button>
+    </form>
+</div>
+{% endblock content %}

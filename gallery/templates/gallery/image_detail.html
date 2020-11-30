@@ -1,0 +1,16 @@
+{% extends "gallery/base.html" %}
+{% block content %}
+<H1 class="col-12 text-center">Image Gallery</H1>
+<div class="row">
+<div class="col-12">
+	<article class="card shadow">
+		<img id="img_detail" class="rounded card-img-top" src="{{ object.img.url }}" id="img_detail" alt="img">
+		<div class="text-center"><h4>{{ object.tag }}</h4></div>
+	</article>
+	<button type="button" class="btn btn-primary" onclick="location.href='{% url 'rotate-left' object.id %}'">Rotate Left
+	</button>
+	<button type="button" class="btn btn-primary" onclick="location.href='{% url 'rotate-right' object.id %}'">Rotate Right
+	</button>
+</div>
+</div>
+{% endblock content %}

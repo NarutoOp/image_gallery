@@ -26,7 +26,7 @@
  - And if you are using XAMPP for MySQL then before running "python manage.py runserver" run apache server and MySQL Server on XAMPP.
  - After Configuring like above first run "python manage.py makemigrations" then run "python manage.py migrate".
  - Now whole setup is ready now runserver.
- - If you are facing rotate buttons are not working please hard refresh your page by "ctrl + shift + R". It is happening due to django or python is caching image and showing     cached image.
+ - If you are facing rotate buttons are not working please hard refresh your page by "ctrl + shift + R". It is happening due to we are rotating original image and saving it and django or python is caching image and showing cached image.
 ---
 
 ## Screen Shot

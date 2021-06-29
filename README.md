@@ -1,6 +1,6 @@
 # Image Gallery
 
-[![Generic badge](https://img.shields.io/badge/Arpit-Gupta-1abc9c.svg)](https://github.com/NarutoOp)
+[![Visits Badge](https://badges.pufler.dev/visits/NarutoOp/image_gallery)](https://badges.pufler.dev/visits/NarutoOp/image_gallery) [![Generic badge](https://img.shields.io/badge/Arpit-Gupta-1abc9c.svg)](https://github.com/NarutoOp)
 
 ---
 
